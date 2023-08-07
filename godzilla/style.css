@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Oswald, Arial, Helvetica, sans-serif;
+}
+  
+header {
+    height: 10vh;
+}
+body {
+  background-image: url(./images/godzilla-2021_5334x3000_xtrafondos\ 1\ \(2\).png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navegador-primario {
+    width: 33vw;
+    margin: 5px 10px 5px 0;
+    display: flex;
+    justify-content: space-around;
+    font-size: 22px;
+}
+  
+.navegador-secundario {
+  background-color: transparent;
+  width: 20vw;
+  display: flex;
+  justify-content: space-around;
+  font-size: 22px;
+}
+.nav23 {
+    width: 30em;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+.sessao_primaria {
+    height: 40vh;
+    width: 70vh;
+    margin: 5vh 10vh 5vh 5vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    color: white;
+}
+#span1 {
+    color: #7bc4db;
+}
+#god {
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 180px;
+}
+#sub {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+ul > li{
+    list-style: none;
+    color: yellow;
+    font-size: 20px;
+}
+.botao {
+    height: 7vh;
+    width: 8vw;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-size: 13px;
+    color: white;
+    background-color: #7bc4db;
+    margin-right: 25px;
+    font-size: 20px;
+    margin-bottom: 60px;
+  }
+
+.trailer {
+    font-size: 19px;
+    color: #7bc4db;
+    font-weight: 300;
+    left: 299px;
+    letter-spacing: 1.50px;
+    line-height: normal;
+    text-decoration: underline;
+    top: 539px;
+    white-space: nowrap;
+    margin-bottom: 60px;
+}
+  
+.filmes {
+    position: absolute;
+    width: 1314px;
+    height: 286px;
+    left: 200px;
+    top: 550px;
+    z-index: 1;
+    border-top-width: 225px;
+    border-bottom-width: 100px;
+  }
+.sessao-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.filmes1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    margin-right: 400px;
+    position: absolute;
+}
+#s6 {
+    position: absolute;
+    width: 182px;
+    height: 258px;
+    left: 64px;
+    top: 35px;
+}
+#s7 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 227px;
+    height: 337px;
+    left: 275px;
+}
+#s8 {
+    position: absolute;
+    width: 184px;
+    height: 255px;
+    left: 533px;
+    top: 35px;
+}
+#s9 {
+    position: absolute;
+    width: 184px;
+    height: 255px;
+    left: 740px;
+    top: 30px;
+}
+#s10 {
+    position: absolute;
+    width: 184px;
+    height: 254px;
+    left: 947px;
+    top: 30px;
+}
+#s11 {
+    position: absolute;
+    width: 184px;
+    height: 254px;
+    left: 1152px;
+    top: 30px;
+}
+#texto {
+    margin-top: 15px;
+}
+.borda {
+    -webkit-backdrop-filter: blur(20%) brightness(100%);
+    backdrop-filter: blur(20%) brightness(100%);
+    background-color: #67657157;
+    border: 1px solid;
+    border-color: #ffffff24;
+    position: absolute;
+    width: 1300px;
+    height: 286px;
+    left: 250px;
+    top: 565px;
+}
